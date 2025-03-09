@@ -1,8 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { vi } from 'vitest';
-import ShippingDelayDisplay from '../Checkout';
-
+import ShippingDelayDisplay from '../index';
 // Mock the Shopify Checkout UI extensions API
 vi.mock('@shopify/checkout-ui-extensions-react', () => {
   return {
